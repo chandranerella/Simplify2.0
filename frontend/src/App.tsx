@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import Home from './pages/HomePage';
 
-import PersonalInfo from './pages/PersonalInfoPage'; // if created
+// import PersonalInfo from './pages/PersonalInfoPage'; // if created
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/personal" element={<PersonalInfo />} />
+        {/* <Route path="/personal" element={<PersonalInfo />} /> */}
       </Routes>
     </Router>
   );
